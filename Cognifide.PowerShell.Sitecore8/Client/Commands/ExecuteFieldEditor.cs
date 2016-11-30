@@ -90,7 +90,7 @@ namespace Cognifide.PowerShell.VersionSpecific.Client.Commands
         protected virtual void EnsureContext(ClientPipelineArgs args)
         {
 #if !DEBUG
-			Ah.Compiler directives. This will not compile. Comment it out!
+			//Ah.Compiler directives. This will not compile. Comment it out!
 #endif
 
 		   var path = args.Parameters[PathParameter];
