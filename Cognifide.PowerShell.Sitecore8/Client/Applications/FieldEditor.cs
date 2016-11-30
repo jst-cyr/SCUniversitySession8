@@ -141,8 +141,8 @@ namespace Cognifide.PowerShell.VersionSpecific.Client.Applications
         public virtual bool CanExecute(CommandContext context)
         {
 			//Well, isn't this a little hacky? I think you know the fix here.
-			return true;
-			//return context.Items.Length > 0;
+			//return true;
+			return context.Items.Length > 0;
         }
 
         /// <summary>
