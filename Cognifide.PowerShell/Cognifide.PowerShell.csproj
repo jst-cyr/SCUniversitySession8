@@ -502,9 +502,9 @@
     <Content Include="sitecore modules\PowerShell\Assets\checked.png" />
     <Content Include="sitecore modules\PowerShell\Assets\coglogo.png" />
     <Content Include="packages.config" />
-    <Content Include="App_Config\Include\O_o\Friends.config">
+    <None Include="App_Config\Include\O_o\Friends.config.disabled">
       <SubType>Designer</SubType>
-    </Content>
+    </None>
     <None Include="sitecore modules\PowerShell\Assets\Cognifide.PowerShell.dll-Help.maml" />
     <Content Include="sitecore modules\PowerShell\Assets\Download.png" />
     <Content Include="sitecore modules\PowerShell\Assets\error.png" />
